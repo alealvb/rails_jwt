@@ -1,24 +1,8 @@
-# README
+# API - Json Web Token
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+El proyecto ejemplo para autenticar con Json Web Token, el flujo desde la creación hasta la fase de autenticar a un usuario esta explicado con comentarios dentro en el código
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Pasos para correr
+* `bundle install`
+* `rails db:migrate`
+* `rails s`
